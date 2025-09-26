@@ -176,7 +176,7 @@ const WeatherApp = () => {
                                 }
                             }}
                             disabled={loading}
-                            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-[8px] transition-colors disabled:opacity-50"
+                            className="bg-[#2563EB] hover:bg-blue-600 text-white px-6 py-3 rounded-[8px] transition-colors disabled:opacity-50"
                         >
                             {loading ? 'Searching...' : 'Search'}
                         </button>
@@ -273,7 +273,7 @@ const WeatherApp = () => {
                                 }
                             }}
                             disabled={loading}
-                            className="bg-blue-500 hover:bg-blue-600 text-white px-6 py-3 rounded-[8px] transition-colors disabled:opacity-50"
+                            className="bg-[#2563EB] hover:bg-blue-600 text-white px-6 py-3 rounded-[8px] transition-colors disabled:opacity-50"
                         >
                             {loading ? 'Searching...' : 'Search'}
                         </button>
